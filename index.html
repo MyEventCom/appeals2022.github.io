@@ -105,9 +105,9 @@
                         <div class="mt-2"><a href="https://myevent.com/RamadanKitchen2022" target="_blank"><h5
                                         class="text-center text-dark text-uppercase font-weight-bold">Ramadan Iftar
                                     Meals</h5></a></div>
-                        <!--<h5 class="text-center text-dark mt-1 font-weight-bold">
+                        <h5 class="text-center text-dark mt-1 font-weight-bold">
                             <span class="amount_raised" data-id="52847"></span>
-                        </h5>-->
+                        </h5>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column flex-lg-row justify-content-lg-center">
@@ -120,9 +120,9 @@
                         <div class="mt-2"><a href="https://myevent.com/RamadanZakah2022" target="_blank"><h5
                                         class="text-center text-dark text-uppercase font-weight-bold">Zakah
                                     Donations</h5></a></div>
-                        <!--<h5 class="text-center text-dark mt-1 font-weight-bold">
+                        <h5 class="text-center text-dark mt-1 font-weight-bold">
                             <span class="amount_raised" data-id="52937"></span>
-                        </h5>-->
+                        </h5>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column flex-lg-row justify-content-lg-center">
@@ -135,9 +135,9 @@
                         <div class="mt-2"><a href="https://myevent.com/OrphanSupport22" target="_blank"><h5
                                         class="text-center text-dark text-uppercase font-weight-bold">Support
                                     Orphans</h5></a></div>
-                        <!--<h5 class="text-center text-dark mt-1 font-weight-bold">
+                        <h5 class="text-center text-dark mt-1 font-weight-bold">
                             <span class="amount_raised" data-id="52943"></span>
-                        </h5>-->
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -152,9 +152,9 @@
                         <div class="mt-2"><a href="https://myevent.com/FeedingtheHungry22" target="_blank"><h5
                                         class="text-center text-dark text-uppercase font-weight-bold">Food Packs For
                                     Hungry</h5></a></div>
-                        <!--<h5 class="text-center text-dark mt-1 font-weight-bold">
+                        <h5 class="text-center text-dark mt-1 font-weight-bold">
                             <span class="amount_raised" data-id="52939"></span>
-                        </h5>-->
+                        </h5>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column flex-lg-row justify-content-lg-center">
@@ -167,9 +167,9 @@
                         <div class="mt-2"><a href="https://myevent.com/WaterWell22" target="_blank"><h5
                                         class="text-center text-dark text-uppercase font-weight-bold">Support Water
                                     Wells</h5></a></div>
-                        <!--<h5 class="text-center text-dark mt-1 font-weight-bold">
+                        <h5 class="text-center text-dark mt-1 font-weight-bold">
                             <span class="amount_raised" data-id="52941"></span>
-                        </h5>-->
+                        </h5>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column flex-lg-row justify-content-lg-center">
@@ -182,9 +182,9 @@
                         <div class="mt-2"><a href="https://myevent.com/UrgentAppeals2022" target="_blank"><h5
                                         class="text-center text-dark text-uppercase font-weight-bold">Help Urgent
                                     Cases</h5></a></div>
-                        <!--<h5 class="text-center text-dark mt-1 font-weight-bold">
+                        <h5 class="text-center text-dark mt-1 font-weight-bold">
                             <span class="amount_raised" data-id="55223"></span>
-                        </h5>-->
+                        </h5>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column flex-lg-row justify-content-lg-center">
@@ -197,9 +197,9 @@
                         <div class="mt-2"><a href="https://myevent.com/SupportMasjidConstruction" target="_blank"><h5
                                         class="text-center text-dark text-uppercase font-weight-bold">Support Masjid
                                     Construction</h5></a></div>
-                        <!--<h5 class="text-center text-dark mt-1 font-weight-bold">
+                        <h5 class="text-center text-dark mt-1 font-weight-bold">
                             <span class="amount_raised" data-id="54469"></span>
-                        </h5>-->
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -218,9 +218,9 @@
                                 </h5>
                             </a>
                         </div>
-                        <!--<h5 class="text-center text-dark mt-1 font-weight-bold">
+                        <h5 class="text-center text-dark mt-1 font-weight-bold">
                             <span class="amount_raised" data-id="55363"></span>
-                        </h5>-->
+                        </h5>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column flex-lg-row justify-content-lg-center">
@@ -236,9 +236,9 @@
                                 </h5>
                             </a>
                         </div>
-                        <!--<h5 class="text-center text-dark mt-1 font-weight-bold">
+                        <h5 class="text-center text-dark mt-1 font-weight-bold">
                             <span class="amount_raised" data-id="55643"></span>
-                        </h5>-->
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -302,11 +302,11 @@
                 data: ({sites: site_ids}),
             }).done(function (data, textStatus, jqXHR) {
                 if (data.error === !1) {
-                    $('.amount_raised').each(function () {
+                    /*$('.amount_raised').each(function () {
                         let id = $(this).data('id');
                         let amount = data.sites[id].raised_entered;
                         $(this).html(amount)
-                    });
+                    });*/
                     $('.amount_raised_total').text(data.total.raised_entered)
                 }
             })
